@@ -1,11 +1,12 @@
 public class Laiend2 extends Pohi{
-	double pikkus, laius;
-	public Risttahukas(double pikkus, double laius, double korgus){
-		super(korgus);
-		this.pikkus=pikkus;
-		this.laius=laius;
+	int purki;
+	double suurus;
+	public Laiend2(String varv, int purki, double suurus){
+		super(varv);
+		this.purki=purki;
+		this.suurus=suurus;
 	}
-	public double pohjaPindala(){
-		return pikkus*laius;
+	public double katab(){
+		return 7*(purki*suurus);
 	}
 }
