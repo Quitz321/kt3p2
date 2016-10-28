@@ -5,7 +5,7 @@ public abstract class Pohi{
 	}
 	public abstract double katab();
 	public String varvKatab(){
-		return "Seina värv: "+varv+" Sellega saab katta "+katab()+" ruutmeetrit seina";
+		return "Seinakate: "+varv+" Sellega saab katta "+katab()+" ruutmeetrit seina";
 
 	}
 }
